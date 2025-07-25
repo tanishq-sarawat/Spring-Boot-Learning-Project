@@ -13,7 +13,7 @@ public class redisTest {
     private RedisTemplate redisTemplate;
     @Test
     void test(){
-        redisTemplate.opsForValue().set("email", "email@gmail.com");
+        redisTemplate.opsForValue().set("email", "env(your email)");
         Object salery = redisTemplate.opsForValue().get("salery");
         int a =1;
     }
