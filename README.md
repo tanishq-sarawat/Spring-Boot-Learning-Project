@@ -10,6 +10,7 @@ This project is a full-featured **Spring Boot** backend application designed wit
 - ✅ **User Authentication**  
   - Secure registration and login system  
   - Passwords encrypted using **BCrypt**
+  - JWT-based authentication
 
 - 🔐 **Role-Based Access Control**  
   - Supports **Admin** and **User** roles with different privileges
@@ -42,7 +43,6 @@ This project is a full-featured **Spring Boot** backend application designed wit
 
 ## 📌 Future Improvements
 
-- JWT-based authentication
 - Docker containerization
 - API rate limiting and monitoring
 
